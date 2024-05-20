@@ -1386,6 +1386,14 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		body{		
+			background-image: url("images/overlay.png"), url("images/unsplash.jpeg");
+			/* background-repeat: repat, no-repeat; */
+			background-size: auto, 100% 100%;
+			/* background-attachment: fixed; */
+			/* overflow-y: scroll; */
+		}
+
 		h1 {
 			font-size: 1.75em;
 		}
